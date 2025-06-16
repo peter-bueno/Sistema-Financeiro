@@ -38,7 +38,7 @@ Sistema de simulação de financiamentos, com entrada de dados, validação e c�
 
 * Uso de for-each para percorrer a lista de financiamentos e imprimir resultados
 ---
-Estrutura:
+Estrutura dos Packages:
 - main.App.java → classe principal
 - model.Financiamento.java → lógica do financiamento
 - util.InterfaceUsuario.java → interação com o usuário
