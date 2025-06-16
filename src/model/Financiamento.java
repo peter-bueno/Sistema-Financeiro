@@ -26,14 +26,14 @@ public class Financiamento {
 
     // Cálculo da parcela mensal (Tabela Price)
     public double calcularMensalidade() {
-        int totalDeParcelas = this.prazoFinanciamentoEmAnos * 12; // total de parcelas
+        int quantidadeDeParcelas = this.prazoFinanciamentoEmAnos * 12; // quantidade de parcelas
         double taxaDeJurosMensal = (this.taxaJurosAnual / 100) / 12; // taxa de juros mensal
 
         if (taxaDeJurosMensal == 0) {
-            return this.valorImovel / totalDeParcelas; // Sem juros
+            return this.valorImovel / quantidadeDeParcelas; // Sem juros
         }
-
-        return this.valorImovel * (taxaDeJurosMensal * Math.pow(1 + taxaDeJurosMensal, totalDeParcelas)) / (Math.pow(1 + taxaDeJurosMensal, totalDeParcelas) - 1);
+        //Onde i = taxaDeJurosMensal, n = quantidadeDeParcelas
+        return this.valorImovel * (taxaDeJurosMensal * Math.pow(1 + taxaDeJurosMensal, quantidadeDeParcelas)) / (Math.pow(1 + taxaDeJurosMensal, quantidadeDeParcelas) - 1);
     }
 
     public double calcularTotalFinanciamento() {
@@ -46,6 +46,6 @@ public class Financiamento {
         System.out.printf("Prazo: %d anos\n", getPrazoFinanciamento());
         System.out.printf("Taxa anual: %.2f%%\n", getTaxaJuros());
         System.out.printf("Valor da mensalidade: R$ %.2f\n", calcularMensalidade());
-        System.out.printf("Total pago ao final do financiamento: R$ %.2f\n", calcularTotalFinanciamento());
+        System.out.printf("Valor pago ao final do financiamento: R$ %.2f\n", calcularTotalFinanciamento());
     }
 }
