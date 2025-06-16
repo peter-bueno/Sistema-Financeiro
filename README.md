@@ -33,7 +33,7 @@ Sistema de simulação de financiamentos com:
 
 * Saída de dados com System.out.print e System.out.printf
 
-* Cálculo de mensalidade com fórmula da Tabela Price
+* Cálculo de mensalidade com fórmula da Tabela Price(A fórmula pega o valor que você vai financiar, aplica os juros mensalmente e distribui esse total em parcelas iguais, de modo que cada parcela já vem com um pedaço de juros + um pedaço da dívida.)
 
 * Exibição formatada de valores monetários (ex: %.2f)
 
