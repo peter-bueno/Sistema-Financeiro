@@ -43,12 +43,10 @@ Sistema de simulação de financiamentos com:
 
 * Uso de for-each para percorrer a lista de financiamentos e imprimir resultados
 ---
-Estrutura dos Packages:
+## Estrutura dos Packages:
 - main.App.java → classe principal
 - model.Financiamento.java → lógica do financiamento
 - util.InterfaceUsuario.java → interação com o usuário
-
-Executar: compilar com javac e rodar App.java
 ---
 
 [Link do Projeto](https://github.com/peter-bueno/Sistema-Financeiro.git)
