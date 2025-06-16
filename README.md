@@ -7,7 +7,12 @@
 sob orientação do professor-tutor Mauricio Antonio Ferste.
 
 ## Descrição:
-Sistema de simulação de financiamentos, com entrada de dados, validação e cálculo de mensalidade e total do financiamento
+Sistema de simulação de financiamentos com:
+- Modulazição Utilizando OOP
+- Organização por pacotes/modulos
+- Entrada/Saida de dados via CLI
+- Validação
+- Cálculo de mensalidade e total do financiamento
 - Utilizando Tabela Price(Implementado por responsabilidade do aluno).
 ---
 ## Ferramentas Utilizadas: 
@@ -46,12 +51,12 @@ Estrutura dos Packages:
 Executar: compilar com javac e rodar App.java
 ---
 
-[Link do Projeto no GITHUB][https://github.com/peter-bueno/Sistema-Financeiro.git]
-## Demonstração:
+[Link do Projeto](https://github.com/peter-bueno/Sistema-Financeiro.git)
+### Demonstração:
 
-- Input: 
+ENTRADA:  
 ![Img demonstracao 1](assets/demonstracao1.png) 
 ---
-- Output: 
+SAIDA: 
 ![Img demonstracao 2](assets/demonstracao2.png) 
 
