@@ -54,10 +54,12 @@ Executar: compilar com javac e rodar App.java
 [Link do Projeto](https://github.com/peter-bueno/Sistema-Financeiro.git)
 ### Demonstração:
 
-ENTRADA:  
+##### ENTRADA:  
+
 ![Img demonstracao 1](assets/demonstracao1.png) 
 
 
-SAIDA: 
+##### SAIDA: 
+
 ![Img demonstracao 2](assets/demonstracao2.png) 
 
