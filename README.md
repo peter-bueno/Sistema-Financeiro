@@ -1,7 +1,7 @@
 # Trabalho de Programação Orientada a Objetos
 
-Aluno: Peterson Ferreira Bueno
-Disciplina: Fundamentos de Programação Orientada a Objetos
+### Aluno: Peterson Ferreira Bueno
+### Disciplina: Fundamentos de Programação Orientada a Objetos
 ---
 - Este projeto foi desenvolvido como atividade da disciplina de Introdução a Programação Orientada a Objetos (POO),
 sob orientação do professor-tutor Mauricio Antonio Ferste.
