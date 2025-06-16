@@ -47,17 +47,19 @@ Sistema de simulação de financiamentos com:
 - main.App.java → classe principal
 - model.Financiamento.java → lógica do financiamento
 - util.InterfaceUsuario.java → interação com o usuário
+
+---
+[Sistema Financeiro](https://github.com/peter-bueno/Sistema-Financeiro.git)
 ---
 
-[Link do Projeto](https://github.com/peter-bueno/Sistema-Financeiro.git)
-### Demonstração:
+#### Demonstração:
 
-##### ENTRADA:  
+###### ENTRADA:  
 
 ![Img demonstracao 1](assets/demonstracao1.png) 
 
 
-##### SAIDA: 
+###### SAIDA: 
 
 ![Img demonstracao 2](assets/demonstracao2.png) 
 
